@@ -14,4 +14,9 @@ public class Cat extends Pet implements Pettable{
     public String speak() {
         return "meow";
     }
+
+    @Override
+    public void pet() {
+
+    }
 }

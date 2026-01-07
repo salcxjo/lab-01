@@ -14,4 +14,9 @@ public class Dog extends Pet implements Pettable{
     public String speak() {
         return "bark";
     }
+
+    @Override
+    public void pet() {
+
+    }
 }
